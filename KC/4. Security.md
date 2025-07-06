@@ -1,0 +1,605 @@
+# Security
+
+## KC - Introduction to Security
+
+#### 1. What is the role of confidentiality in the confidentiality, integrity, and availability (CIA) triad?
+- [ ] It ensures that resources have not been tampered with.
+- [x] It ensures that resources are accessed by only authorized users access. ✅
+- [ ] It ensures that resources do not contain private information.
+- [ ] It ensures that resources are accessible when they are needed.
+
+#### 2. Which security perspective is concerned with ensuring that data sent over a network is not tampered with?
+- [ ] Availability
+- [ ] Confidentiality
+- [x] Integrity ✅
+- [ ] Scalability
+
+#### 3. Which type of threat floods a resource with multiple requests from multiple systems?
+- [x] Distributed denial of service (DDoS) ✅
+- [ ] Phishing
+- [ ] Malware
+- [ ] Man-in-the-middle
+
+#### 4. Which option is a phase in the security lifecycle?
+- [ ] Construction
+- [ ] Deployment
+- [x] Prevention ✅
+- [ ] Provisioning
+
+#### 5. Which option is an example of an administrative security control?
+- [x] Acceptable Use Policy document ✅
+- [ ] Building security camera
+- [ ] Antivirus software
+- [ ] Card reader device
+
+***
+
+## KC - Security Lifecycle: Prevention
+
+#### 1. Which of the following tasks are a part of the prevention phase of the security lifecycle? (Select THREE.)
+- [ ] Restore operations.
+- [x] Identify assets to be protected. ✅
+- [x] Assess asset vulnerability. ✅
+- [ ] Remove malware.
+- [x] Implement countermeasures. ✅
+- [ ] Detect security issues.
+
+#### 2. Which AWS service creates an inventory of the Amazon Elastic Compute Cloud (Amazon EC2) instances in an AWS account?
+- [ ] Amazon Simple Storage Service (Amazon S3)
+- [x] AWS Systems Manager ✅
+- [ ] Amazon EC2
+- [ ] Amazon Virtual Private Cloud (Amazon VPC)
+
+#### 3. What is the benefit of using a layered security prevention strategy to protect a valuable asset?
+- [ ] The valuable asset moves from one layer to another for better protection.
+- [x] The valuable asset is protected by multiple layers of different types of security measures. ✅
+- [ ] The strategy uses only a single layer, which is easy to implement.
+- [ ] The strategy repeats the same protective measures in multiple layers for redundant protection.
+
+#### 4. Which of the following are types of security prevention measures? (Select THREE.)
+- [ ] Performance testing
+- [x] Data security controls ✅
+- [x] Systems hardening ✅
+- [ ] Database replication
+- [ ] System backup
+- [x] Network hardening ✅
+
+#### 5. Which statement describes the principle of least privilege in identity management?
+- [ ] Grant users access to all resources by default.
+- [ ] Grant users access to only the resources that they request.
+- [x] Grant users access to only the resources that they are authorized to access. ✅
+- [ ] Grant users access to no resources by default.
+
+***
+
+## KC - Network Hardening
+
+#### 1. Which type of security vulnerability exposes protocols and services on a network?
+- [ ] Traffic sniffing
+- [ ] Internet protocol (IP) spoofing
+- [x] Port scanning ✅
+- [ ] Network mapping
+
+#### 2. Which protocol should a network administrator disable or secure to protect against network discovery attacks?
+- [ ] Simple Mail Transfer Protocol (SMTP)
+- [x] Internet Control Message Protocol (ICMP) ✅
+- [ ] Hypertext Transfer Protocol (HTTP)
+- [ ] File Transfer Protocol (FTP)
+
+#### 3. Which statement fully describes the purpose of a firewall?
+- [ ] It filters inbound packet on a network.
+- [x] It filters inbound and outbound packets on a network. ✅
+- [ ] If filters Hypertext Transfer Protocol (HTTP) packets on a network.
+- [ ] It filters outbound packets on a network.
+
+#### 4. Which of the following is a benefit of network segmentation? (Select TWO.)
+- [ ] It expands the Internet Protocol (IP) address range of a network.
+- [ ] It protects a network from network mapping attacks.
+- [ ] It enables signature-based threat detection.
+- [x] It allows administrators to apply different security controls to different parts of a network. ✅
+- [x] It improves network traffic performance. ✅
+
+#### 5. What is an Amazon Web Services (AWS) security group?
+- [ ] A group of servers that are configured to protect resources
+- [x] A firewall that protects Amazon Elastic Compute Cloud (Amazon EC2) instances ✅
+- [ ] A group of users that are allowed to access resources
+- [ ] An application that is installed on Amazon Elastic Compute cloud (Amazon EC2) instances to protect them
+
+***
+
+## KC - Systems Hardening
+
+#### 1. What is the primary goal of systems hardening?
+- [x] To minimize security risks by reducing the set of vulnerabilities that are exposed by a system ✅
+- [ ] To reduce security risks by setting a schedule of patches, regardless of time, to run once a year
+- [ ] To keep all devices and services running so that they can run processes and scripts in the background
+- [ ] To reduce isolated security risks by having as many systems as possible up and running
+
+#### 2. What is a security baseline?
+- [x] A starting point for determining what to secure and how to secure a system ✅
+- [ ] An ending point for determining how to secure a resource
+- [ ] A starting point that uses an unacceptable condition to determine what to secure
+- [ ] A way to provide information that is related to company documentation and abnormal conditions
+
+#### 3. Which task helps to harden a system?
+- [ ] Allowing all permissions for all groups
+- [x] Applying patches regularly ✅
+- [ ] Turning off used services
+- [ ] Turning on unused services
+
+#### 4. How does physical security contribute to systems hardening?
+- [ ] Applies updates to web applications and databases
+- [ ] Secures applications running on a server
+- [ ] Turns on antivirus and firewalls
+- [x] Restricts physical access to facilities through biometrics, CCTV, and so on. ✅
+
+#### 5. Which Amazon Web Services (AWS) tool evaluates your account and provides recommendations to help you follow AWS best practices?
+- [ ] Amazon GuardDuty
+- [ ] AWS Shield
+- [ ] AWS CloudTrail
+- [x] AWS Trusted Advisor ✅
+
+***
+
+## KC - Data Security
+
+#### 1. Which term best describes the discipline that embodies the principles and techniques for providing data security?
+- [ ] Encryption
+- [x] Cryptography ✅
+- [ ] Data integrity
+- [ ] Decryption
+
+#### 2. Which of the following is an advantage of symmetric encryption?
+- [ ] It uses both a private key and a public key (a key pair).
+- [x] Its key is a shared secret between the sender and the receiver. ✅
+- [ ] It is considered more secure than asymmetric encryption.
+- [ ] It has a complex encryption structure.
+
+#### 3. What is the goal of encryption?
+- [ ] Authentication
+- [ ] Integrity
+- [x] Confidentiality ✅
+- [ ] Accuracy
+
+#### 4. Which protocols use the hybrid encryption method as a mode of encryption? (Select TWO.)
+- [ ] Internet Protocol (IP)
+- [x] Secure Sockets Layer (SSL) ✅
+- [ ] Transmission Control Protocol (TCP)
+- [ ] Hyper-Text Transfer Protocol (HTTP)
+- [x] Transport Layer Security (TLS) ✅
+
+#### 5. Who possesses the private key to decrypt an asymmetrically encrypted message?
+- [ ] Both the sender and recipient of the message
+- [x] The recipient of the message ✅
+- [ ] The sender of the message
+- [ ] The device that sent the message
+
+***
+
+## KC - Public Key Infrastructure
+
+#### 1. What signs and issues certificates to entities and manages trusts and relationships?
+- [ ] Registration authorities (RAs)
+- [ ] Certificates
+- [ ] Revocation lists
+- [x] Certificate authorities (CAs) ✅
+
+#### 2. What is a digital certificate?
+- [ ] A file that contains security permissions
+- [ ] A component that encrypts the data exchanged between two communicating entities
+- [x] An electronic credential that is used to represent the identity of an individual, computer, or other entity ✅
+- [ ] An electronic credential that identifies the network used by two communicating entities
+
+#### 3. Which resource is used with Secure Sockets Layer (SSL) and Transport Layer Security (TLS) to establish a secure connection between a client and server?
+- [ ] Certificate authority (CA)
+- [ ] Certificate template
+- [x] Private key and public key ✅
+- [ ] Certificate signing request
+
+#### 4. A company's site is giving users an error that the certificate authority (CA) is invalid. What could be the cause of this issue?
+- [ ] The company's server is down.
+- [x] The CA certificate has expired. ✅
+- [ ] The user is using a root CA.
+- [ ] The user has a connection issue.
+
+#### 5. How is trust achieved between two parties when using public key infrastructure (PKI) principles?
+- [ ] Through the exchange of private keys that validate the identities of the parties
+- [ ] Through public keys and private keys that validate the identities of the parties
+- [x] Through the exchange of public keys that validate the identities of the parties ✅
+- [ ] By an external certificate authority (CA) that validates the identities of the parties
+
+***
+
+## KC - Identity Management
+
+#### 1. What is the goal of authorization in identity management?
+- [ ] Validating a user's password
+- [x] Determining a user's permissions ✅
+- [ ] Logging a user's access
+- [ ] Proving a user's identity
+
+#### 2. Which option is an authentication factor for something that you are?
+- [ ] Passphrase
+- [ ] USB key
+- [x] Fingerprint reader ✅
+- [ ] Smart card
+
+#### 3. Which type of attack uses a predefined list of words as passwords to attempt to log in to a system?
+- [x] Dictionary attack ✅
+- [ ] Rainbow table attack
+- [ ] Hash table
+- [ ] Distributed denial of service (DDoS) attack
+
+#### 4. What format does AWS Identity and Access Management (IAM) use to define authorization rules?
+- [ ] User format
+- [ ] Group format
+- [x] JSON format ✅
+- [ ] Docker format
+
+#### 5. What is a form of single sign-on in which one account is used for multiple services?
+- [x] Federated identities ✅
+- [ ] Relationship identities
+- [ ] Directory identities
+- [ ] Independent identities
+
+***
+
+## KC - AWS IAM
+
+#### 1. What is the goal of identity management?
+- [ ] Detect security threats and notify users
+- [ ] Manage the responses to security threats based on user type
+- [ ] Identify all systems that can be accessed by users
+- [x] Administer users and their access permissions ✅
+
+#### 2. Which security steps are performed during a typical login? (Select TWO.)
+- [ ] Prevention
+- [ ] Consolidation
+- [ ] Activation
+- [x] Authentication ✅
+- [x] Authorization ✅
+
+#### 3. What is an example of an authentication factor?
+- [ ] Authentication server
+- [ ] Encryption algorithm
+- [ ] Firewall policy
+- [x] Multi-factor authentication (MFA) ✅
+
+#### 4. Where do you define the actions that may or may not be performed by a user?
+- [ ] In a permissions document
+- [x] In a policy document attached to the user ✅
+- [ ] In the AWS Identity and Access Management (IAM) user settings
+- [ ] In the settings for the group that the user was added to
+
+#### 5. What is a best practice for identity management?
+- [ ] Use group accounts.
+- [x] Implement password policies. ✅
+- [ ] Manage passwords manually.
+- [ ] Avoid single sign-on.
+
+***
+
+## KC - Detection
+
+#### 1. Which infection methods does malware use? (Select TWO.)
+- [x] Removable device ✅
+- [ ] Junk mail
+- [x] Untrusted website ✅
+- [ ] Fingerprint
+- [ ] Building access card
+
+#### 2. Which option is a countermeasure against malware?
+- [ ] Scale virtual servers.
+- [x] Scan systems regularly. ✅
+- [ ] Log user access.
+- [ ] Monitor routers.
+
+#### 3. What is a best practice when using antivirus software?
+- [x] Update virus definition files regularly. ✅
+- [ ] Scan only the computer's memory.
+- [ ] Report scan findings to the antivirus vendor consistently.
+- [ ] Switch antivirus programs frequently.
+
+#### 4. Where can you install an intrusion detection system? (Select TWO.)
+- [x] On a server ✅
+- [x] On a network ✅
+- [ ] On a firewall
+- [ ] On a network interface card
+- [ ] On a router
+
+#### 5. What is a data source that Amazon GuardDuty uses to analyze and detect threats?
+- [ ] Antivirus scan findings
+- [x] Virtual private cloud (VPC) flow logs ✅
+- [ ] Firewall alerts
+- [ ] Email notifications
+
+***
+
+## KC - AWS CloudTrail
+
+#### 1. What is AWS CloudTrail?
+- [ ] A web service that assesses application vulnerabilities
+- [ ] A web service that controls other Amazon Web Services (AWS) services through application programming interface (API) calls
+- [ ] A web service that manages users and permissions
+- [x] A web service that uses log files to record Amazon Web Service (AWS) events ✅
+
+#### 2. What are the key benefits of AWS CloudTrail? (Select TWO.)
+- [ ] It improves application security by filtering inbound and outbound data.
+- [ ] It gives customers the ability to migrate on-premises applications to the Amazon Web Services (AWS) Cloud.
+- [ ] It simplifies threat detection by detecting malicious activities.
+- [x] It simplifies compliance audits by recording activities and events into logs files. ✅
+- [x] It provides visibility by recording user and resource activities. ✅
+
+#### 3. Which types of information do AWS CloudTrail events capture when a user performs a service request? (Select TWO.)
+- [ ] The size of the request in kilobytes (KB)
+- [x] The user who performed the request ✅
+- [ ] The Amazon Web Services (AWS) events that the user request invokes
+- [ ] The cost of the call to the service
+- [x] The IP address where the request originated ✅
+
+#### 4. Which statements are best practices for working with AWS CloudTrail? (Select TWO.)
+- [ ] Integrate CloudTrail with AWS Lambda.
+- [ ] Integrate Cloud Trail with Amazon Elastic Compute Cloud (Amazon EC2).
+- [ ] Ensure that CloudTrail is available in only one Amazon Web Services (AWS) Region.
+- [x] Aggregate log files to a single Amazon Simple Storage Service (Amazon S3) bucket. ✅
+- [x] Turn on file integrity validation for CloudTrail. ✅
+
+#### 5. Why is integrating AWS CloudTrail with Amazon CloudWatch considered a good practice?
+- [ ] CloudWatch secures access to Cloud Trail log files.
+- [x] CloudWatch monitors and reacts to events recorded in CloudTrail log files. ✅
+- [ ] Users can use CloudWatch to store CloudTrail log files.
+- [ ] CloudWatch transforms CloudTrail log files into a file format that the user defines.
+
+***
+
+## KC - AWS Config
+
+#### 1. What is AWS Config?
+- [ ] A tool that logs application programming interface (API) calls to Amazon Web Services (AWS) services in log files
+- [ ] A tool that helps reduce cost
+- [x] A tool that tracks changes to resources ✅
+- [ ] A tool that provides advice on how to secure networks on Amazon Web Services (AWS)
+
+#### 2. What are features of AWS Config? (Select TWO.)
+- [ ] Send a notification when a threat to Amazon Web Services (AWS) resources is detected.
+- [ ] Check for service usage to see the limits of the service.
+- [ ] Provide users the ability to set up more secure security groups.
+- [x] Retrieve inventory of Amazon Web Services (AWS) resources. ✅
+- [x] Send notifications when a configuration change has occurred in an Amazon Web Services (AWS) resource. ✅
+
+#### 3. Which tool can customers use to define custom rules for AWS Config?
+- [ ] AWS CloudFormation
+- [x] AWS Lambda ✅
+- [ ] Amazon API Gateway
+- [ ] AWS Elastic Beanstalk
+
+#### 4. What are actions that AWS Config takes when a configuration change occurs on an Amazon Web Services (AWS) service? (Select TWO.)
+- [x] AWS Config logs and then stores the change in an Amazon Simple Storage Service (Amazon S3) bucket. ✅
+- [ ] AWS Config calls AWS CloudTrail to log the change into log files.
+- [ ] AWS Config corrects the change if it violates an Amazon Web Services (AWS) rule.
+- [x] AWS Config uses Amazon Simple Notification Service (Amazon SNS) to send a notification. ✅
+- [ ] AWS Config calls AWS Trusted Advisor to assess the security level of applications.
+
+#### 5. When is an AWS Config rule associated with a resource evaluated?
+- [ ] When the resource is started
+- [ ] When the resource is stopped
+- [ ] When an AWS Lambda function initiates the evaluation
+- [x] When the resource's configuration is changed ✅
+
+***
+
+## KC - Response
+
+#### 1. Which plans are used to minimize the impact of unplanned downtime? (Select TWO.)
+- [ ] Quality assurance (QA) plan
+- [x] Disaster recovery plan (DRP) ✅
+- [ ] Test plan
+- [ ] Software management plan
+- [x] Business continuity plan (BCP) ✅
+
+#### 2. What is the purpose of a business continuity plan (BCP)?
+- [ ] To define how to investigate any security event
+- [ ] To define the recovery time objective (RTO) and the recovery point objective (RPO)
+- [ ] To define how to recover from an outage loss
+- [x] To define how to run the business in a reduced capacity ✅
+
+#### 3. What is the purpose of a disaster recovery plan (DRP)?
+- [ ] To identify the individuals responsible for the disaster
+- [ ] To define how to run the business in a reduced capacity after a disaster occurs
+- [ ] To identify the potential disasters that could befall the business
+- [x] To define how to restore business functionality quickly after a disaster occurs ✅
+
+#### 4. Which statements describe the purpose of the recovery point objective (RPO)? (Select TWO.)
+- [x] It focuses on recovering only data. ✅
+- [ ] It establishes the maximum amount of time a resource can be unavailable.
+- [ ] It defines the work recovery time (WRT).
+- [ ] It focuses on recovering the entire IT infrastructure.
+- [x] It represents how much data loss a business can tolerate. ✅
+
+#### 5. Which of the following disaster recovery options is a minimal version of an environment running in the cloud?
+- [ ] S3 bucket
+- [x] Pilot light ✅
+- [ ] Replication
+- [ ] Backup
+
+***
+
+## KC - Analysis
+
+#### 1. Which phase of the security lifecycle reviews what happened after a security breach?
+- [ ] Detection
+- [ ] Response
+- [ ] Prevention
+- [x] Analysis ✅
+
+#### 2. Which step is performed during root cause analysis (RCA)?
+- [x] Establish a timeline starting with baseline operations and ending with the problem's occurrence. ✅
+- [ ] Implement preventative measures to protect resources.
+- [ ] Describe the actions to perform when a problem occurs.
+- [ ] Establish a projection for when business will return to normal.
+
+#### 3. What is a benefit of monitoring and logging?
+- [ ] It increases application performance.
+- [ ] It corrects security threats.
+- [ ] It prevents security threats.
+- [x] It provides the data that is used for problem identification. ✅
+
+#### 4. A company has just recovered from a Trojan horse security breach and is performing a security analysis. Which questions should the company ask during the analysis? (Select TWO.)
+- [x] How did the breach happen? ✅
+- [ ] How should the breach be reported to the public?
+- [ ] Who is the manager that allowed the breach to happen?
+- [ ] Can the company file charges against the attacker?
+- [x] How could the breach have been prevented? ✅
+
+#### 5. What does a monitoring policy define? (Select TWO.)
+- [ ] Where is the policy stored?
+- [ ] When is the policy approved?
+- [ ] Who reviews the policy?
+- [x] Which resources are monitored? ✅
+- [x] Who performs the monitoring? ✅
+
+***
+
+## KC - Trusted Advisor
+
+#### 1. Which of the following are categories in which AWS Trusted Advisor provides recommendations? (Select TWO.)
+- [ ] Database design
+- [ ] Threat detection
+- [x] Fault tolerance ✅
+- [ ] Migration planning
+- [x] Cost optimization ✅
+
+#### 2. Which of the following AWS Trusted Advisor checks are available for free? (Select TWO.)
+- [ ] Low utilization of Amazon Elastic Compute Cloud (Amazon EC2) instances
+- [x] Multi-factor authentication (MFA) on the root account ✅
+- [ ] Amazon Simple Storage Service (Amazon S3) bucket logging
+- [ ] AWS Identity and Access Management (IAM) policy
+- [x] AWS Identity and Access Management (IAM) use ✅
+
+#### 3. What does an AWS Trusted Advisor red check status (Exclamation point (!)) mean?
+- [ ] Action is required.
+- [ ] Investigation is recommended.
+- [ ] Services that raised red flags were deactivated.
+- [x] Action is recommended. ✅
+
+#### 4. What is the service limit threshold that causes a warning from the service limits check?
+- [ ] 70 percent
+- [ ] 90 percent
+- [x] 80 percent ✅
+- [ ] 95 percent
+
+#### 5. AWS Trusted Advisor raises a Security Groups - Unrestricted Access red check status (Exclamation point (!)). Which action should be taken?
+- [ ] Add a rule that forbids all outbound access to the identified security group.
+- [x] Add rules that give access to authorized IP addresses to the identified security group. ✅
+- [ ] Add a rule that forbids all inbound access to the identified security group.
+- [ ] Transform all public subnets into private subnets.
+
+***
+
+## KC - Security Best Practices
+
+#### 1. What is used to authenticate the Amazon Web Services (AWS) account root user in the AWS Management Console?
+- [ ] User name
+- [ ] Key pair
+- [ ] Access key
+- [x] Email address ✅
+
+#### 2. Which type of permissions does an Amazon Web Services (AWS) account root user have?
+- [ ] Administrator access to all AWS services except managed services
+- [ ] Complete access to only AWS security services
+- [x] Complete access to all AWS services and resources ✅
+- [ ] Administrator access to AWS Identity and Access Management (IAM) and limited access to all other services
+
+#### 3. Which logging service should be immediately activated as a best practice when creating an Amazon Web Services (AWS) account?
+- [x] AWS CloudTrail ✅
+- [ ] AWS Control Tower
+- [ ] Amazon CloudWatch
+- [ ] AWS Config
+
+#### 4. What is a best practice when creating a user in an Amazon Web Services (AWS) account?
+- [ ] Make the password the same as the user name initially.
+- [x] Require multi-factor authentication (MFA) for access. ✅
+- [ ] Include numbers in the user name.
+- [ ] Make the password 10 characters in length.
+
+#### 5. What is a best practice when setting up your Amazon Web Services (AWS) account to receive billing reports?
+- [ ] Give the account root user credentials to all employees so that they can create their own reports.
+- [ ] Create new reports for each AWS user who needs access.
+- [x] Create or select an Amazon Simple Storage Service (Amazon S3) bucket and set up AWS Cost and Usage Reports. ✅
+- [ ] Edit an existing policy to add new reports to your AWS account.
+
+***
+
+## KC - AWS Security Compliance Program
+
+#### 1. Which type of requirements do security compliance standards address? (Select TWO.)
+- [ ] Accounting
+- [ ] Cost
+- [ ] Billing
+- [x] Regulatory ✅
+- [x] Contractual ✅
+
+#### 2. Which type of compliance violation can result in criminal penalties?
+- [ ] Open standards
+- [ ] Best practices
+- [ ] Productivity level
+- [x] Government regulations ✅
+
+#### 3. Which statement accurately identifies who is responsible for satisfying security compliance requirements in the Amazon Web Services (AWS) Cloud?
+- [ ] The customer, AWS, and third-party partners are responsible for satisfying compliance standards.
+- [x] The customer and AWS share the responsibility for satisfying compliance standards. ✅
+- [ ] AWS is solely responsible for satisfying compliance standards.
+- [ ] The customer is solely responsible for satisfying compliance standards.
+
+#### 4. What is a goal of the Amazon Web Services (AWS) business risk management program?
+- [ ] Analyze security breaches
+- [x] Create and maintain security policies ✅
+- [ ] Provide security training to AWS customers
+- [ ] Scan customer applications once per year
+
+#### 5. How does Amazon Web Services (AWS) share security information? (Select TWO.)
+- [ ] By providing all documentation for AWS security compliance on the AWS website 
+- [x] By publishing information about AWS security in technical papers ✅
+- [ ] By publishing third-party independent audit reports as requested by customers 
+- [x] By making the information available through the AWS Artifact portal ✅
+- [ ] By publishing control practices in a newsletter that customers can subscribe to
+
+***
+
+## KC - AWS Security Resources
+
+#### 1. Which Amazon Web Services (AWS) resources can customers use to make their applications more secure? (Select TWO.)
+- [ ] AWS Free Tier
+- [ ] AWS Command Line Interface (AWS CLI)
+- [ ] AWS DevOps and Automation toolkit
+- [x] AWS advisories and bulletins ✅
+- [x] AWS account teams ✅
+
+#### 2. Which Amazon Web Services (AWS) resources can customers use to support compliance for their applications? (Select TWO.)
+- [ ] AWS reference architecture diagrams
+- [ ] AWS advisories and bulletins
+- [x] AWS Auditor Learning Path ✅
+- [ ] AWS technical guides
+- [x] AWS account teams ✅
+
+#### 3. A security engineer discovered a vulnerability in an Amazon Web Services (AWS) service. Where should this engineer report their findings?
+- [x] AWS advisories and bulletins ✅
+- [ ] AWS helpdesk
+- [ ] AWS DevOps and Automation toolkit
+- [ ] Amazon Cognito
+
+#### 4. What does Amazon Web Services (AWS) Enterprise Support offer? (Select TWO.)
+- [x] A dedicated AWS technical account manager (TAM) ✅
+- [ ] A dedicated consultant from AWS Professional Services
+- [ ] A dedicated consultant from the AWS Partner Network (APN)
+- [ ] A response time of less than 15 minutes for all issues
+- [x] Support 24/7 through phone, chat, or email ✅
+
+
+#### 5. Which statement describes the service that Amazon Web Services (AWS) account teams provide?
+- [ ] They perform security tests on customer applications, such as penetration testing.
+- [ ] They guide customers through deployment and implementation.
+- [x] They provide customer support for deployed applications. ✅
+- [ ] They provide customers with compliance reports of their applications.
+
+***
