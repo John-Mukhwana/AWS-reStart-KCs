@@ -1,3 +1,10 @@
+
+**Support This Project**  
+Enjoying these resources? Consider supporting my work to keep this repository updated!  
+<a href="https://www.paypal.com/ncp/payment/EW2SX774HUNAW" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me a Coffee" style="height: 41px;"></a>
+
+
+
 ![reStart-Email-Banner_option-1-1-1-1](https://github.com/user-attachments/assets/7af63e79-f383-4795-b097-575237691ff4)
 
 # AWS re/Start ☁️ 
