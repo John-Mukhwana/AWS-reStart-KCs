@@ -15,6 +15,7 @@ Enjoying these resources? Consider supporting my work to keep this repository up
 <br><br>
 
 ![reStart-Email-Banner_option-1-1-1-1](https://github.com/user-attachments/assets/7af63e79-f383-4795-b097-575237691ff4)
+<br>
 Welcome to the repository containing all the Knowledge Checks (KCs) and related PDFs for the AWS re/Start program! 🎓 
 <br><br>
 These materials are designed to reinforce the key concepts of each module, helping you solidify your understanding of AWS services. 
