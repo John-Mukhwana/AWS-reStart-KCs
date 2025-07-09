@@ -2,7 +2,7 @@
 
 ---
 
-**Support This Project**  
+**Support This Repository**  
 Enjoying these resources? Consider supporting my work to keep this repository updated!  
 <a href="https://www.paypal.com/ncp/payment/EW2SX774HUNAW" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me a Coffee" style="height: 41px;"></a>
 
@@ -42,7 +42,7 @@ To know more about the AWS re/Start program, visit the official page <br>
 
 ---
 
-**Support This Project**  
+**Support This Repository**  
 Enjoying these resources? Consider supporting my work to keep this repository updated!  
 <a href="https://www.paypal.com/ncp/payment/EW2SX774HUNAW" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me a Coffee" style="height: 41px;"></a>
 
